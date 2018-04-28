@@ -1,0 +1,290 @@
+.brand-logo img {
+  width: 200%;
+  padding-top: 0;
+}
+
+.primary-overlay {
+  background: rgba(39, 75, 58, 0.692);
+  /* background: rgba(64, 109, 88, 0.7); */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-header {
+  background: url(../img/ef_forest_sun-78kb.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  min-height: 600px;
+  color: #fff;
+  position: relative;
+}
+
+.my-wrapper {
+  height: 100%;
+}
+
+.main-header .showcase {
+  padding-top: 80px;
+}
+
+.dark-header {
+  background: #004d47;
+}
+
+@media screen and (min-width: 950px) {
+  hr {
+    display: none !important;
+  }
+}
+
+.scroll-icon {
+  /* header is relative and we use it is parent so ok to have absolute here */
+  position: absolute;
+  bottom: 5%;
+  left: 47%;
+  opacity: 0.5;
+}
+/* #product {
+  height: auto !important;
+  max-height: 500px !important;
+} */
+.section-product {
+  /* margin-bottom: 0; */
+  /* min-height: 30vh !important; */
+  background: #004d47;
+}
+
+ul.section-product {
+  /* box-sizing: border-box; */
+  /* position: absolute; */
+  /* width: 450px; */
+  /* margin: 100px auto 0; */
+  /* padding: 10px; */
+  /* box-sizing: border-box; */
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.5) !important;
+  /* display: table; */
+}
+
+ul.product-list li {
+  display: flex;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px 20px;
+  color: #fff;
+  margin: 5px 0;
+  transition: 0.5s;
+  align-items: center;
+}
+
+ul.footer-links li {
+  display: flex;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px 20px;
+  color: #fff;
+  margin: 5px 0;
+  transition: 0.5s;
+  align-items: center;
+}
+
+ul.product-list li:nth-child(1) {
+  background: rgba(255, 255, 255, 0.4);
+}
+ul.product-list li:nth-child(2) {
+  background: rgba(255, 255, 255, 0.3);
+}
+ul.product-list li:nth-child(3) {
+  background: rgba(255, 255, 255, 0.2);
+}
+ul.product-list li:nth-child(4) {
+  background: rgba(255, 255, 255, 0.1);
+}
+/* gradient for footer-links */
+ul.footer-links li:nth-child(1) {
+  background: rgba(255, 255, 255, 0.4);
+}
+ul.footer-links li:nth-child(2) {
+  background: rgba(255, 255, 255, 0.3);
+}
+ul.footer-links li:nth-child(3) {
+  background: rgba(255, 255, 255, 0.2);
+}
+ul.footer-links li:nth-child(4) {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* ul li span:nth-child(1) {
+  width: 15%;
+} */
+ul li span:nth-child(1) {
+  width: 70%;
+}
+ul li span:nth-child(2) {
+  width: 30%;
+  line-height: 20%;
+  font-size: 1.8em;
+  /* text-align: right; */
+}
+
+ul.product-list li:hover {
+  transform: scale(1.06);
+  background: #004d47;
+}
+
+.carousel {
+  background: #004d47;
+  top: 40px;
+  margin-bottom: 40px;
+}
+
+.carousel .carousel-item img {
+  max-width: 520px !important;
+  width: 100%;
+}
+
+/* .product { */
+/* padding: 30px 10px !important; */
+/* height: 100vh; */
+/* height: 100%; */
+
+/* min-height: 600px; */
+/* vertical-align: center; */
+
+.box {
+  padding: 40px 10px !important;
+  min-height: 80vh !important;
+  vertical-align: center !important;
+}
+
+.box h4 {
+  padding-bottom: 30px;
+}
+
+.section-boxes .row {
+  margin-bottom: 0 !important;
+}
+
+.section-about {
+  /* background: #0e8044; */
+  margin-bottom: 0;
+}
+
+.about-background {
+  background: url(../img/ef_forest_sun-78kb.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.about-overlay {
+  background: rgba(39, 75, 58, 0.692);
+}
+/* .card-weforest {
+  /* overflow: auto !important; */
+/* position: relative; */
+/* display: flex; */
+/* flex-direction: column; */
+
+.weforest {
+  /* position: absolute; */
+  /* display: flex; */
+  /* display: table; */
+  overflow: hidden !important;
+  max-width: 40vw;
+  max-height: 40vh;
+
+  border-radius: 50%;
+}
+
+.section-testimonials {
+  /* margin-top: 0; */
+}
+
+.collection {
+  /* display: flex; */
+  height: auto !important;
+  width: 100% !important;
+}
+
+.collection-item {
+  padding: 20px !important;
+  min-height: 50px !important;
+}
+.collection-item .strong {
+  padding: 20px !important;
+  min-height: 50px !important;
+}
+
+.icons {
+  text-align: center !important;
+}
+
+.section-contact {
+  position: relative;
+}
+
+.section-contact .card-panel {
+  position: relative;
+  z-index: 1;
+}
+#googlemap {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+@media (max-width: 600px) {
+  .main-header {
+    height: 20vh;
+  }
+}
+#box3 {
+  background: #004d47;
+}
+
+/* #msg_success {
+  color: #fff;
+  background-color: green;
+} */
+label.error {
+  background: red;
+  color: white;
+  padding: 5px;
+} /* only display when we tell it to in jQuery */
+.loading {
+  display: none;
+  /* align-content: center; */
+}
+
+#overlay {
+  display: none;
+  position: fixed;
+  background: url("images/loading.gif");
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: rgba(0, 0, 0, 0.3); */
+}
+
+div.error {
+  color: red;
+  margin-top: -15px;
+  padding: 0;
+  font-size: 0.9em;
+}
+
+#g-recaptcha {
+  display: inline-block;
+  /* margin: 0 auto; */
+}

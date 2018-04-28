@@ -1,0 +1,96 @@
+.primary-overlay {
+  background: rgba(64, 109, 88, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-header {
+  background: url(../img/ef_forest_sun-78kb.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  min-height: 600px;
+  color: #fff;
+  position: relative;
+}
+
+.my-wrapper {
+  height: 100%;
+}
+
+.main-header .showcase {
+  padding-top: 80px;
+}
+
+.dark-header {
+  background: #004d47;
+}
+
+.scroll-icon {
+  /* header is relative and we use it is parent so ok to have absolute here */
+  position: absolute;
+  bottom: 5%;
+  left: 47%;
+  opacity: 0.5;
+}
+
+.section-product {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  position: relative;
+  min-height: 600px;
+}
+.product-img {
+  position: relative;
+  /* vertical-align: center; */
+}
+.product {
+  padding: 30px 10px !important;
+  /* height: 100%; */
+
+  /* min-height: 600px; */
+  /* vertical-align: center; */
+}
+.box {
+  padding: 40px 10px !important;
+}
+
+.box h4 {
+  padding-bottom: 30px;
+}
+
+.section-boxes .row {
+  margin-bottom: 0 !important;
+}
+
+.section-contact {
+  position: relative;
+}
+.section-contact .card-panel {
+  position: relative;
+  z-index: 1;
+}
+
+#googlemap {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+@media (max-width: 600px) {
+  .main-header {
+    height: 20vh;
+  }
+}
+
+#box3 {
+  background: #004d47;
+}
