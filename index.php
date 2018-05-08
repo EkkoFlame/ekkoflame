@@ -47,12 +47,9 @@
                 <i class="material-icons">menu</i>
               </a>
               <ul class="right hide-on-med-and-down">
-<<<<<<< HEAD
                 <!-- <li>
                   <a href="#home">Home</a>
                 </li> -->
-=======
->>>>>>> override everything y test-git
                 <li>
                   <a href="#about">About</a>
                 </li>
@@ -75,11 +72,7 @@
       </div>
       <!-- Side nav -->
       <ul class="side-nav" id="mobile-nav">
-<<<<<<< HEAD
-        <h4 class="blue-grey darken-3 center">EkkoFlame</h4>
-=======
         <h4 class="center">EKKOFLAME</h4>
->>>>>>> override everything y test-git
         <li>
           <a href="" class="divider"></a>
         </li>
@@ -126,18 +119,6 @@
   <section class="carousel">
   <div class="carousel carousel-slider center" data-indicators="true">
       <a class="carousel-item" href="#one!">
-<<<<<<< HEAD
-        <img src="img/weforest_logo.png">
-      </a>
-      <a class="carousel-item" href="#two!">
-        <img src="img/ef_forest_sun-78kb.jpg">
-      </a>
-      <a class="carousel-item" href="#three!">
-        <img src="img/img3.jpg">
-      </a>
-      <a class="carousel-item" href="#four!">
-        <img src="img/img4.jpg">
-=======
         <img src="img/ekkoflame-kindling-wood-1.png">
       </a>
       <a class="carousel-item" href="#two!">
@@ -148,7 +129,6 @@
       </a>
       <a class="carousel-item" href="#four!">
         <img src="img/ekkoflame-kindling-wood-4.jpg">
->>>>>>> override everything y test-git
       </a>
     </div>
   </section>
@@ -161,14 +141,9 @@
       <div class="row">
 
         <div class="col s12 m6 l6">
-<<<<<<< HEAD
-          <div class="card orange darken-4">
-            <div class="card-content white-text">
-=======
           <div class="card blue darken-2">
             <div class="card-content white-text">
             <div class="header-card-sustainability"><span>Why are we sustainable?</span></div>
->>>>>>> override everything y test-git
               <ul class="product-list">
                 <li>
                   <span class="name">Packaging made from 100% recycled paper</span>
@@ -180,11 +155,7 @@
                   <span><i class="fa fa-trophy"></i></span>
                 </li>
                 <li>
-<<<<<<< HEAD
-                <span class="name">More than 80% of kindling wood made out of alredy dried out and dead trees</span>
-=======
                 <span class="name">More than 80% of kindling wood made out of already dried out and dead trees</span>
->>>>>>> override everything y test-git
                 <span><i class="fa fa-check-square"></i></i></span>
               </li>
                 <li>
@@ -195,9 +166,6 @@
               </ul>
             </div>
           </div>
-<<<<<<< HEAD
-        </div>
-=======
         </div> <!--END COL-->
         <div class="col s12 m6 l6">
           <div class="card orange darken-4">
@@ -226,7 +194,6 @@
             </div>
           </div>
         </div> <!--END COL-->
->>>>>>> override everything y test-git
 
       </div>
 
@@ -280,13 +247,8 @@
           </h3>
           <div class="row">
             <div class="col s12 m6 ">
-<<<<<<< HEAD
-              <div class="card">
-                <div class="card-content card-weforest green darken-2 white-text z-depth-5">
-=======
               <div class="card opacity">
                 <div class="card-content card-weforest light-green darken-4 white-text z-depth-5">
->>>>>>> override everything y test-git
                   <h5>Together with
                     <strong>WeForest</strong>, we help plant 2 trees for 1 tree we use in our product</h5>
                   <a class="weforest" href="https://www.weforest.org/" target="_blank">
@@ -425,11 +387,7 @@
               </div>
               <br/>
               <div id="g-recaptcha">
-<<<<<<< HEAD
-              <div class="g-recaptcha" data-theme="light"  data-sitekey="6Lc_W1UUAAAAAODRRL5W9NMYlYB3zNjYKjo9_snr" style="transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;display:table;margin:0 auto;"></div>
-=======
               <div class="g-recaptcha" data-theme="light"  data-sitekey="6Lc_W1UUAAAAAODRRL5W9NMYlYB3zNjYKjo9_snr" style="transform:scale(0.66);-webkit-transform:scale(0.66);transform-origin:0 0;-webkit-transform-origin:0 0;display:table;margin:0 auto;"></div>
->>>>>>> override everything y test-git
               </div>
               <!-- END FORM -->
             </form>
