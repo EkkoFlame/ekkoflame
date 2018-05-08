@@ -1,17 +1,12 @@
-<<<<<<< HEAD
-=======
 .main-header {
   margin-bottom: 0;
   padding: 0;
 }
 
->>>>>>> override everything y test-git
 .brand-logo img {
   width: 200%;
   padding-top: 0;
 }
-<<<<<<< HEAD
-=======
 * {
   margin: 0;
   padding: 0;
@@ -19,16 +14,12 @@
 body#home {
   margin: 0;
 }
->>>>>>> override everything y test-git
 
 .primary-overlay {
   background: rgba(39, 75, 58, 0.692);
   /* background: rgba(64, 109, 88, 0.7); */
-<<<<<<< HEAD
-=======
   margin: 0;
   padding: 0;
->>>>>>> override everything y test-git
   position: absolute;
   top: 0;
   left: 0;
@@ -76,8 +67,6 @@ body#home {
   height: auto !important;
   max-height: 500px !important;
 } */
-<<<<<<< HEAD
-=======
 
 .side-nav {
   background: #004d47;
@@ -94,16 +83,12 @@ a.divider {
   padding: 0;
 }
 
->>>>>>> override everything y test-git
 .section-product {
   /* margin-bottom: 0; */
   /* min-height: 30vh !important; */
   background: #004d47;
-<<<<<<< HEAD
-=======
   margin: 0;
   padding: 0;
->>>>>>> override everything y test-git
 }
 
 ul.section-product {
@@ -201,8 +186,6 @@ ul.product-list li:hover {
 /* min-height: 600px; */
 /* vertical-align: center; */
 
-<<<<<<< HEAD
-=======
 .header-card-sustainability span {
   /* box-sizing: border-box; */
   font-size: 250%;
@@ -244,7 +227,6 @@ h2.white-text {
   padding-top: 20px;
 }
 
->>>>>>> override everything y test-git
 .box {
   padding: 40px 10px !important;
   min-height: 80vh !important;
