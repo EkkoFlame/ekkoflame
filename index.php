@@ -47,9 +47,6 @@
                 <i class="material-icons">menu</i>
               </a>
               <ul class="right hide-on-med-and-down">
-                <!-- <li>
-                  <a href="#home">Home</a>
-                </li> -->
                 <li>
                   <a href="#about">About</a>
                 </li>
@@ -72,7 +69,7 @@
       </div>
       <!-- Side nav -->
       <ul class="side-nav" id="mobile-nav">
-        <h4 class="blue-grey darken-3 center">EkkoFlame</h4>
+        <h4 class="center">EKKOFLAME</h4>
         <li>
           <a href="" class="divider"></a>
         </li>
@@ -119,16 +116,16 @@
   <section class="carousel">
   <div class="carousel carousel-slider center" data-indicators="true">
       <a class="carousel-item" href="#one!">
-        <img src="img/weforest_logo.png">
+        <img src="img/ekkoflame-kindling-wood-1.png">
       </a>
       <a class="carousel-item" href="#two!">
-        <img src="img/ef_forest_sun-78kb.jpg">
+        <img src="img/ekkoflame-kindling-wood-2.jpg">
       </a>
       <a class="carousel-item" href="#three!">
-        <img src="img/img3.jpg">
+        <img src="img/ekkoflame-kindling-wood-3.jpg">
       </a>
       <a class="carousel-item" href="#four!">
-        <img src="img/img4.jpg">
+        <img src="img/ekkoflame-kindling-wood-4.jpg">
       </a>
     </div>
   </section>
@@ -141,8 +138,9 @@
       <div class="row">
 
         <div class="col s12 m6 l6">
-          <div class="card orange darken-4">
+          <div class="card blue darken-2">
             <div class="card-content white-text">
+            <div class="header-card-sustainability"><span>Why are we sustainable?</span></div>
               <ul class="product-list">
                 <li>
                   <span class="name">Packaging made from 100% recycled paper</span>
@@ -154,7 +152,7 @@
                   <span><i class="fa fa-trophy"></i></span>
                 </li>
                 <li>
-                <span class="name">More than 80% of kindling wood made out of alredy dried out and dead trees</span>
+                <span class="name">More than 80% of kindling wood made out of already dried out and dead trees</span>
                 <span><i class="fa fa-check-square"></i></i></span>
               </li>
                 <li>
@@ -165,7 +163,34 @@
               </ul>
             </div>
           </div>
-        </div>
+        </div> <!--END COL-->
+        <div class="col s12 m6 l6">
+          <div class="card orange darken-4">
+            <div class="card-content white-text">
+            <div class="header-card-quality"><span>Quality first!</span></div>
+              <ul class="product-list">
+                <li>
+                  <span class="name">We dry out our kindle wood making it easy to catch fire</span>
+                  <span>
+                  <i class="fa fa-fire"></i></span>
+                </li>
+                <li>
+                  <span class="name">Our patent-panding package is convenient to carry</span>
+                  <span><i class="fa fa-registered"></i></span>
+                </li>
+                <li>
+                <span class="name">We only use soft wood, so you can ignite much faster</span>
+                <span><i class="fa fa-thermometer-4"></i></i></span>
+              </li>
+                <li>
+                  <span class="name">Opened or not, our kindling package will look elegant wherever it is</span>
+                  <span><i class="fa fa-heart"></i></span>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div> <!--END COL-->
 
       </div>
 
@@ -219,8 +244,8 @@
           </h3>
           <div class="row">
             <div class="col s12 m6 ">
-              <div class="card">
-                <div class="card-content card-weforest green darken-2 white-text z-depth-5">
+              <div class="card opacity">
+                <div class="card-content card-weforest light-green darken-4 white-text z-depth-5">
                   <h5>Together with
                     <strong>WeForest</strong>, we help plant 2 trees for 1 tree we use in our product</h5>
                   <a class="weforest" href="https://www.weforest.org/" target="_blank">
@@ -359,7 +384,7 @@
               </div>
               <br/>
               <div id="g-recaptcha">
-              <div class="g-recaptcha" data-theme="light"  data-sitekey="6Lc_W1UUAAAAAODRRL5W9NMYlYB3zNjYKjo9_snr" style="transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;display:table;margin:0 auto;"></div>
+              <div class="g-recaptcha" data-theme="light"  data-sitekey="6Lc_W1UUAAAAAODRRL5W9NMYlYB3zNjYKjo9_snr" style="transform:scale(0.66);-webkit-transform:scale(0.66);transform-origin:0 0;-webkit-transform-origin:0 0;display:table;margin:0 auto;"></div>
               </div>
               <!-- END FORM -->
             </form>

@@ -1,11 +1,25 @@
+.main-header {
+  margin-bottom: 0;
+  padding: 0;
+}
+
 .brand-logo img {
   width: 200%;
   padding-top: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body#home {
+  margin: 0;
 }
 
 .primary-overlay {
   background: rgba(39, 75, 58, 0.692);
   /* background: rgba(64, 109, 88, 0.7); */
+  margin: 0;
+  padding: 0;
   position: absolute;
   top: 0;
   left: 0;
@@ -53,10 +67,28 @@
   height: auto !important;
   max-height: 500px !important;
 } */
+
+.side-nav {
+  background: #004d47;
+}
+a.divider {
+  background: #004d47;
+}
+.side-nav li a {
+  color: white;
+}
+
+.carousel {
+  margin: 0;
+  padding: 0;
+}
+
 .section-product {
   /* margin-bottom: 0; */
   /* min-height: 30vh !important; */
   background: #004d47;
+  margin: 0;
+  padding: 0;
 }
 
 ul.section-product {
@@ -153,6 +185,47 @@ ul.product-list li:hover {
 
 /* min-height: 600px; */
 /* vertical-align: center; */
+
+.header-card-sustainability span {
+  /* box-sizing: border-box; */
+  font-size: 250%;
+  word-break: break-word;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 104px;
+  white-space: pre-line;
+}
+
+.header-card-quality span {
+  /* box-sizing: border-box; */
+  font-size: 250%;
+  word-break: break-word;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 104px;
+  white-space: pre-line;
+}
+.opacity {
+  opacity: 0.9;
+}
+
+div .row {
+  margin-bottom: 0;
+}
+section {
+  margin: 0;
+  padding: 0 !important;
+}
+div.about-overlay {
+  margin: 0;
+}
+
+h2.white-text {
+  margin: 0;
+  padding-top: 20px;
+}
 
 .box {
   padding: 40px 10px !important;
