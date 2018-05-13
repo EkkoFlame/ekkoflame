@@ -42,7 +42,7 @@
         <nav id="navigation" class="transparent">
           <div class="container">
             <div class="nav-wrapper">
-              <a href="#home" class="brand-logo">EKKOFLAME</a>
+              <a href="#home" class="brand-logo"><img src="img/EKKOFLAME logo.svg" alt="ekkoflame logo"></a>
               <a href="#" data-activates="mobile-nav" class="button-collapse">
                 <i class="material-icons">menu</i>
               </a>
@@ -69,12 +69,13 @@
       </div>
       <!-- Side nav -->
       <ul class="side-nav" id="mobile-nav">
-        <h4 class="center">EKKOFLAME</h4>
+        <li><a href="#home" class="brand-logo-nav"><img src="img/EKKOFLAME logo.svg" alt="ekkoflame logo"></a>
+        </li>
         <li>
           <a href="" class="divider"></a>
         </li>
         <li>
-          <a href=""javascript:window.location.href=window.location.href"">Home</a>
+          <a href="" javascript:window.location.href=window.location.href"">Home</a>
         </li>
         <li>
           <a href="#about">About</a>
@@ -113,7 +114,7 @@
   <!-- <div style="height:1100px"></div> FOR TESTING -->
 
   <!-- Section: Carousel -->
-  <section class="carousel">
+  <!-- <section class="carousel">
   <div class="carousel carousel-slider center" data-indicators="true">
       <a class="carousel-item" href="#one!">
         <img src="img/ekkoflame-kindling-wood-1.png">
@@ -128,9 +129,28 @@
         <img src="img/ekkoflame-kindling-wood-4.jpg">
       </a>
     </div>
-  </section>
-  <!-- Section: Parallax1 -->
+  </section> -->
 
+  <!-- Section: Test Grid -->
+  <section class="test-grid">
+  <div id="content">
+    <div>1</div>
+    <div>2</div>
+    <div><img src="img/ekkoflame-kindling-wood-1.jpg" alt="" class="grid-img"></div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+  </div>
+
+  </section>
+
+  <!-- Section: Image Grid -->
+  <!-- <section class="picture-grid">
+    <div class="grid-box"><img src="img/ekkoflame-kindling-wood-1.jpg" alt="" class="grid-img"></div>
+    <div class="grid-box"><img src="img/ekkoflame-kindling-wood-2.jpg" alt="" class="grid-img"></div>
+    <div class="grid-box"><img src="img/ekkoflame-kindling-wood-3.jpg" alt="" class="grid-img"></div>
+    <div class="grid-box"><img src="img/ekkoflame-kindling-wood-4.jpg" alt="" class="grid-img"></div>
+  </section> -->
 
   <!-- Section: Product -->
   <section  class="section-product center scrollspy">
@@ -245,7 +265,7 @@
           <div class="row">
             <div class="col s12 m6 ">
               <div class="card opacity">
-                <div class="card-content card-weforest light-green darken-4 white-text z-depth-5">
+                <div class="card-content card-weforest white-text z-depth-5">
                   <h5>Together with
                     <strong>WeForest</strong>, we help plant 2 trees for 1 tree we use in our product</h5>
                   <a class="weforest" href="https://www.weforest.org/" target="_blank">
@@ -412,9 +432,9 @@
             <li>
               <a class="white-text" href="#about">About</a>
             </li>
-            <li>
+            <!-- <li>
               <a class="white-text" href="#testimonials">Testimonials</a>
-            </li>
+            </li> -->
             <li>
               <a class="white-text" href="#contact">Contact</a>
             </li>
